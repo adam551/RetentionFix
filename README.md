@@ -2,6 +2,11 @@
 
 # WARNING: FLASHING IMAGES
 
+## What does it do?
+
+This script flashes colors rapidly to force the display's pixels to move.
+The goal is to get rid of the image retention on IPS displays (or to create a party light)
+
 ## How to use
 
 * Download the .html file
