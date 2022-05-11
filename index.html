@@ -1,0 +1,20 @@
+<html>
+	<head>
+	</head>
+	<body style = "background:grey">
+	 <button id = "fixButton" onclick="fix()">FIX</button> 
+		<script>
+		function fix(){
+			document.getElementById("fixButton").style.visibility = "hidden";
+			var framerate = 10;
+			var timing = 1000/framerate;
+				setInterval(function(){
+				var randomColor = Math.floor(Math.random()*16777215).toString(16);
+				document.body.style.backgroundColor = randomColor;
+				}, timing);
+			}
+		</script>
+		
+	</body>
+
+</html>
